@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 const SEO_DATA = {
   description: 'H2B visa report',
-  title: 'visaDetectives',
+  title: 'visaDetective',
   url: '',
   author: 'Lucas Pauker',
   keywords: ['gatsby', 'site', 'visa', 'h2b', 'h2-b'],
