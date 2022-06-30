@@ -47,6 +47,14 @@ const About = () => (
       <Section id="report">
         <Container>
           <div className="graph">
+            <h2>Top H2-B Job Categories</h2>
+            <p>
+              This tool shows the distribution of the top 15 H2-B job categories.
+              It is clear that landscaping is the largest job category, accounting for 49.5% of the total workers requested.
+            </p>
+            <iframe title="Top Categories" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=57742a02-5e17-4ac0-9e68-dd5f47256b92&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
+          </div>
+          <div className="graph">
             <h2>Top H2-B Preparers</h2>
             <p>
               Use this tool to understand statistics of H2-B preparers.
@@ -64,17 +72,9 @@ const About = () => (
             <iframe title="Top Attorneys" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=06f22a67-7be7-4e0c-82f3-72b577018f02&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
           <div className="graph">
-            <h2>Top H2-B Job Categories</h2>
-            <p>
-              This tool shows the distribution of the top 15 H2-B job categories.
-              It is clear that landscaping is the largest job category, accounting for 49.5% of the total workers requested.
-            </p>
-            <iframe title="Top Categories" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=57742a02-5e17-4ac0-9e68-dd5f47256b92&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
-          </div>
-          <div className="graph">
             <h2>Decision Date Heatmap</h2>
             <p>
-              This tool shows when decisions were made by OFLC for the applications. Decision date is defined as the <a href="https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/H-2B_Record_Layout_FY2022_Q2.pdf">"date on which the last significant event or determination was issued by OFLC."</a>
+              This tool shows when decisions were made by OFLC for the applications. Decision date is defined as the <a href="https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/H-2B_Record_Layout_FY2022_Q2.pdf">"date on which the last significant event or determination was issued by OFLC."</a>&nbsp;
               We can see that the decision dates are clustered around February and August.
             </p>
             <iframe title="Decision Date HeatMap" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=addf787b-0b5d-4cb4-bf5f-8586ceb2c91c&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>

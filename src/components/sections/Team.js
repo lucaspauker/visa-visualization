@@ -71,6 +71,11 @@ const Team = () => (
               );
             })}
           </TeamGrid>
+          <p className="bio">
+            We are Stanford students that are excited about using technology to find solutions to difficult problems. We love the visa space since it helps immigrants, US businesses, and the economy as a whole.
+            We have worked with the Stanford Legal Design Lab and the Stanford Center for Legal Informatics and built products across several spaces in finance, law, and education.
+            We have eclectic backgrounds for sure....ranging from starting a funky necktie company to building tech to address the opioid epidemic.
+          </p>
         </Container>
       </Section>
     )}

@@ -33,16 +33,36 @@ const UsedBy = () => (
       <Section id="future" accent>
         <StyledContainer>
           <div>
-            <h1>We can help you...</h1>
+            <h1>Here are some questions we can answer.</h1>
             <ul>
-              <li>Understand the competitive landscape of the H2-B space</li>
-              <li>Generate leads for employers</li>
-              <li>Understand processing times for visas</li>
+              <li>Who are the top preparers?
+                <ul>
+                  <li>Which employers are currently using them as their preparers?</li>
+                </ul>
+              </li>
+              <li>Who are the top attorneys?
+                <ul>
+                  <li>Which employers are they preparing data for?</li>
+                </ul>
+              </li>
+              <li>Who are employers that don't have preparers?
+                <ul>
+                  <li>How many employees are they sponsoring?</li>
+                  <li>What states are they in?</li>
+                  <li>How much are they paying their workers?</li>
+                  <li>Which industries are they in?</li>
+                  <li>What is their contact information?</li>
+                </ul>
+              </li>
+              <li>What does the processing time look like?
+                <ul>
+                  <li>What is the average amount of time between a file being received and a decision being issued?</li>
+                  <li>What is the likelihood that you receive a decision on a specific date?</li>
+                </ul>
+              </li>
             </ul>
+            <center><h3>To access our premium report or to have other questions answered, please email us <a href="mailto:sparab22@stanford.edu">sparab22@stanford.edu</a> and <a href="mailto:lpauker@stanford.edu">lpauker@stanford.edu.</a></h3></center>
           </div>
-          <Art>
-            <Img fluid={data.art_story.childImageSharp.fluid} />
-          </Art>
         </StyledContainer>
       </Section>
     )}

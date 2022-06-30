@@ -96,6 +96,10 @@ const GlobalStyles = createGlobalStyle`
 
   .MuiCircularProgress-root {
   }
+
+  .bio {
+    margin-top: 40px;
+  }
 `;
 
 export default GlobalStyles;
