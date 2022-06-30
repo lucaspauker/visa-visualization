@@ -61,7 +61,7 @@ const UsedBy = () => (
                 </ul>
               </li>
             </ul>
-            <center><h3>To access our premium report or to have other questions answered, please email us <a href="mailto:sparab22@stanford.edu">sparab22@stanford.edu</a> and <a href="mailto:lpauker@stanford.edu">lpauker@stanford.edu.</a></h3></center>
+            <center><h3>If this is interesting to you, please email us <a href="mailto:sparab22@stanford.edu">sparab22@stanford.edu</a> and <a href="mailto:lpauker@stanford.edu">lpauker@stanford.edu</a>.</h3></center>
           </div>
         </StyledContainer>
       </Section>

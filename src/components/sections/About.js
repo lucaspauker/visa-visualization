@@ -52,7 +52,7 @@ const About = () => (
               This tool shows the distribution of the top 15 H2-B job categories.
               It is clear that landscaping is the largest job category, accounting for 49.5% of the total workers requested.
             </p>
-            <iframe title="Top Categories" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=57742a02-5e17-4ac0-9e68-dd5f47256b92&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
+            <iframe title="Top Categories" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZWUyNTk1YTEtNWI4ZC00MWMxLTgzM2ItY2RlOWU2MjVlODBmIiwidCI6IjU3ZmEzMjA1LWI2ZTgtNGQzZC1iNGU1LTMxNjdhZThkMDU4ZSIsImMiOjN9&pageName=ReportSection" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
           <div className="graph">
             <h2>Top H2-B Preparers</h2>
@@ -61,7 +61,7 @@ const About = () => (
               The graph on the right shows the distribution of job categories for visa applications.
               By clicking a firm on the left, you can see the job categories that they handle the most.
             </p>
-            <iframe title="Top Preparers" width="100%" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=a4f002e4-e48e-4456-bb10-f9ab4ea864de&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
+            <iframe title="Top Preparers" width="100%" height="541.25" src="https://app.powerbi.com/view?r=eyJrIjoiMTU5NzA4ZWUtODAyYi00YjNmLTlhOGEtNzljM2E1ODBkZmU3IiwidCI6IjU3ZmEzMjA1LWI2ZTgtNGQzZC1iNGU1LTMxNjdhZThkMDU4ZSIsImMiOjN9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
           <div className="graph">
             <h2>Top H2-B Attorneys</h2>
@@ -69,7 +69,7 @@ const About = () => (
               This tool shows the top H2-B attorneys sorted by the number of cases that they process.
               By clicking on one of the bars in the top graph, you can see more information about the specific attorney like their name and the total number of workers sponsored by them.
             </p>
-            <iframe title="Top Attorneys" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=06f22a67-7be7-4e0c-82f3-72b577018f02&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
+            <iframe title="Top Attorneys" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZGI3N2E1MWMtMjAyYS00NDkyLTliZTUtZGNkYmJjNWNhZGExIiwidCI6IjU3ZmEzMjA1LWI2ZTgtNGQzZC1iNGU1LTMxNjdhZThkMDU4ZSIsImMiOjN9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
           <div className="graph">
             <h2>Decision Date Heatmap</h2>
@@ -77,7 +77,7 @@ const About = () => (
               This tool shows when decisions were made by OFLC for the applications. Decision date is defined as the <a href="https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/H-2B_Record_Layout_FY2022_Q2.pdf">"date on which the last significant event or determination was issued by OFLC."</a>&nbsp;
               We can see that the decision dates are clustered around February and August.
             </p>
-            <iframe title="Decision Date HeatMap" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=addf787b-0b5d-4cb4-bf5f-8586ceb2c91c&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
+            <iframe title="Decision Date HeatMap" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiOTk2YWM1NWUtODkzYy00MzdmLWFhNGYtY2RmZTMwNzhiY2YxIiwidCI6IjU3ZmEzMjA1LWI2ZTgtNGQzZC1iNGU1LTMxNjdhZThkMDU4ZSIsImMiOjN9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
         </Container>
       </Section>
