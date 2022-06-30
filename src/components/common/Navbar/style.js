@@ -50,6 +50,12 @@ export const NavItem = styled.li`
     color: ${props => props.theme.color.black.regular};
   }
 
+  button {
+    text-decoration: none;
+    opacity: 0.7;
+    color: ${props => props.theme.color.black.regular};
+  }
+
   &.active {
     a {
       opacity: 1;

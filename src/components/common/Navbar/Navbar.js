@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
+import LoginButton from '@common/LoginButton';
+import LogoutButton from '@common/LogoutButton';
 
 import { Container } from '@components/global';
 import {
@@ -15,11 +17,13 @@ import {
 
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 
-const NAV_ITEMS = ['Report', 'Future', 'Team'];
+let NAV_ITEMS = ['Report', 'Future', 'Team'];
+let NAV_ITEMS_L = ['report', 'future', 'team'];
 
 class Navbar extends Component {
   state = {
     mobileMenuOpen: false,
+    nav_items: NAV_ITEMS,
   };
 
   toggleMobileMenu = () => {
@@ -41,14 +45,15 @@ class Navbar extends Component {
   getNavList = ({ mobile = false }) => (
     <NavListWrapper mobile={mobile}>
       <Scrollspy
-        items={NAV_ITEMS.map(item => item.toLowerCase())}
+        items={NAV_ITEMS_L}
         currentClassName="active"
         mobile={mobile}
         offset={-64}
       >
-        {NAV_ITEMS.map(navItem => (
+        {this.state.nav_items.map(navItem => (
           <NavItem key={navItem}>{this.getNavAnchorLink(navItem)}</NavItem>
         ))}
+        <NavItem key="log">{this.props.loggedIn ? <LogoutButton /> : <LoginButton />}</NavItem>
       </Scrollspy>
     </NavListWrapper>
   );
