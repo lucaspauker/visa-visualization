@@ -89,6 +89,13 @@ const GlobalStyles = createGlobalStyle`
   .team-cont {
     text-align: center;
   }
+
+  img {
+    border-radius: 5px;
+  }
+
+  .MuiCircularProgress-root {
+  }
 `;
 
 export default GlobalStyles;

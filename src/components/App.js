@@ -13,6 +13,7 @@ import Footer from '@sections/Footer';
 
 import { Auth0Provider } from "@auth0/auth0-react";
 import { useAuth0 } from "@auth0/auth0-react";
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 const App = () => {
   //const { user, isAuthenticated, isLoading } = useAuth0();
@@ -27,7 +28,13 @@ const App = () => {
 
   if (isLoading) {
     return(
-      "Loading.."
+      <div id="App">
+        <Layout>
+          <div style={{display: 'flex', justifyContent: 'center', marginTop: '100px'}}>
+            <CircularProgress style={{'color': 'black'}}/>
+          </div>
+        </Layout>
+      </div>
     );
   }
   if (!isAuthenticated) {
