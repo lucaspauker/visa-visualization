@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Auth0Provider
     domain="dev-lcrt6eds.us.auth0.com"
     clientId="VTUyceSP3pRytyixJ6N3DuCFDb06ya0l"
-    redirectUri={"http://localhost:8000"}
+    redirectUri={"https://www.visadetective.com/"}
   >
     <App />
   </Auth0Provider>
