@@ -35,17 +35,17 @@ const UsedBy = () => (
           <div>
             <h1>Here are some questions we can answer.</h1>
             <ul>
-              <li>Who are the top preparers?
+              <li>Who are the top preparers for H2-B visas?
                 <ul>
                   <li>Which employers are currently using them as their preparers?</li>
                 </ul>
               </li>
-              <li>Who are the top attorneys?
+              <li>Who are the top attorneys for H2-B visas?
                 <ul>
                   <li>Which employers are they preparing data for?</li>
                 </ul>
               </li>
-              <li>Who are employers that don't have preparers?
+              <li>Who are H2-B employers that don't have preparers?
                 <ul>
                   <li>How many employees are they sponsoring?</li>
                   <li>What states are they in?</li>
@@ -54,7 +54,7 @@ const UsedBy = () => (
                   <li>What is their contact information?</li>
                 </ul>
               </li>
-              <li>What does the processing time look like?
+              <li>What does the processing time look like for H2-B?
                 <ul>
                   <li>What is the average amount of time between a file being received and a decision being issued?</li>
                   <li>What is the likelihood that you receive a decision on a specific date?</li>
