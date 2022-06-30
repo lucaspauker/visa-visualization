@@ -13,33 +13,6 @@ import { ReactComponent as NodeLogo } from '@images/logos/nodejs.svg';
 import { ReactComponent as NikeLogo } from '@images/logos/nike.svg';
 import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
 
-const LOGOS = [
-  {
-    logo: AirbnbLogo,
-    link: 'https://airbnb.io',
-  },
-  {
-    logo: AppleMusicLogo,
-    link: 'https://www.apple.com/in/music/',
-  },
-  {
-    logo: CokeLogo,
-    link: 'https://coca-cola.com',
-  },
-  {
-    logo: NodeLogo,
-    link: 'https://nodejs.org',
-  },
-  {
-    logo: NikeLogo,
-    link: 'https://nike.com',
-  },
-  {
-    logo: InstagramLogo,
-    link: 'https://instagram.com',
-  },
-];
-
 const UsedBy = () => (
   <StaticQuery
     query={graphql`
@@ -60,12 +33,11 @@ const UsedBy = () => (
       <Section id="future" accent>
         <StyledContainer>
           <div>
-            <h1>We can do much more</h1>
+            <h1>We can help you...</h1>
             <ul>
-              <li>Which countries are most common</li>
-              <li>Which countries are most common</li>
-              <li>Which countries are most common</li>
-              <li>Which countries are most common</li>
+              <li>Understand the competitive landscape of the H2-B space</li>
+              <li>Generate leads for employers</li>
+              <li>Understand processing times for visas</li>
             </ul>
           </div>
           <Art>

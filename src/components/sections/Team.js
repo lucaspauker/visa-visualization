@@ -10,11 +10,13 @@ const TEAM = [
   {
     name: 'Shreyas Parab',
     image: 'shreyas.jpeg',
+    school: 'Stanford University',
     role: 'sparab@stanford.edu',
   },
   {
     name: 'Lucas Pauker',
     image: 'lucas.png',
+    school: 'Stanford University',
     role: 'lpauker@stanford.edu',
   },
 ];
@@ -50,9 +52,9 @@ const Team = () => (
     render={data => (
       <Section id="team" accent="secondary">
         <Container className="team-cont" style={{ position: 'relative' }}>
-          <h1>The team</h1>
+          <h1>Our team</h1>
           <TeamGrid>
-            {TEAM.map(({ name, image, role }) => {
+            {TEAM.map(({ name, image, school, role }) => {
               const img = data.allFile.edges.find(
                 ({ node }) => node.relativePath === image
               ).node;
@@ -61,6 +63,7 @@ const Team = () => (
                 <div key={name}>
                   <Img fluid={img.childImageSharp.fluid} alt={name} />
                   <Title>{name}</Title>
+                  <Subtitle2>{school}</Subtitle2>
                   <StyledExternalLink href={"mailto:" + role}>
                     <Subtitle>{role}</Subtitle>
                   </StyledExternalLink>
@@ -135,6 +138,12 @@ const Title = styled.p`
 const Subtitle = styled.p`
   ${props => props.theme.font_size.small};
 `;
+
+const Subtitle2 = styled.p`
+  ${props => props.theme.font_size.small};
+  color: black;
+`;
+
 
 const StyledExternalLink = styled(ExternalLink)`
   color: ${props => props.theme.color.black.light};

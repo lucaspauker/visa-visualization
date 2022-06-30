@@ -47,9 +47,9 @@ const About = () => (
       <Section id="report">
         <Container>
           <div className="graph">
-            <h2>Employer data</h2>
+            <h2>H2-B Preparer Data</h2>
             <p>
-              Use this widget to see the employer statistics blah blah blah
+              Use this tool to understand statistics of H2-B preparers.
             </p>
             <iframe title="Top Preparers - Page 1" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMjQ2NjM4MWYtY2IyYS00YjcxLWJmMzAtOWQ1YWVhNDI2NmUyIiwidCI6IjU3ZmEzMjA1LWI2ZTgtNGQzZC1iNGU1LTMxNjdhZThkMDU4ZSIsImMiOjN9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
