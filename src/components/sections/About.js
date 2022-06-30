@@ -54,22 +54,29 @@ const About = () => (
             <iframe title="Top Preparers - Page 1" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMjQ2NjM4MWYtY2IyYS00YjcxLWJmMzAtOWQ1YWVhNDI2NmUyIiwidCI6IjU3ZmEzMjA1LWI2ZTgtNGQzZC1iNGU1LTMxNjdhZThkMDU4ZSIsImMiOjN9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
           <div className="graph">
-            <h2>Nothing new to learn here</h2>
+            <h2>Top Attorneys</h2>
             <p>
               Enjoy the power of the latest web technologies – React.js ,
               Webpack , modern JavaScript and CSS and more — all set up and
               waiting for you to start building.
             </p>
+            <iframe title="Top Attorneys" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=06f22a67-7be7-4e0c-82f3-72b577018f02&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
+          </div>
+          <div className="graph">
+            <h2>Top Categories</h2>
+            <p>
+              Waste no more time on tooling and performance. Focus on the the
+              site you want to build and nothing more.
+            </p>
+            <iframe title="Top Categories" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=57742a02-5e17-4ac0-9e68-dd5f47256b92&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
           <div className="graph">
             <h2>Grow and build your ideas</h2>
             <p>
               Waste no more time on tooling and performance. Focus on the the
               site you want to build and nothing more.
-              <br />
-              <br />
-              Gatsby is fast in every way that matters.
             </p>
+            <iframe title="Decision Date HeatMap" width="100%" height="600" src="https://app.powerbi.com/reportEmbed?reportId=addf787b-0b5d-4cb4-bf5f-8586ceb2c91c&autoAuth=true&ctid=57fa3205-b6e8-4d3d-b4e5-3167ae8d058e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>
           </div>
         </Container>
       </Section>
