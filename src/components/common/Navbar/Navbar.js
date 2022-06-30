@@ -18,12 +18,13 @@ import {
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 
 let NAV_ITEMS = ['Report', 'Future', 'Team'];
+let NAV_ITEMS_S = ['Future', 'Team'];
 let NAV_ITEMS_L = ['report', 'future', 'team'];
 
 class Navbar extends Component {
   state = {
     mobileMenuOpen: false,
-    nav_items: NAV_ITEMS,
+    nav_items: this.props.loggedIn ? NAV_ITEMS : NAV_ITEMS_S,
   };
 
   toggleMobileMenu = () => {
@@ -45,7 +46,7 @@ class Navbar extends Component {
   getNavList = ({ mobile = false }) => (
     <NavListWrapper mobile={mobile}>
       <Scrollspy
-        items={NAV_ITEMS_L}
+        items={this.state.nav_items.map(x => x.toLowerCase())}
         currentClassName="active"
         mobile={mobile}
         offset={-64}
