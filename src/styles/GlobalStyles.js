@@ -74,10 +74,10 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
-  #future ul {
+  #questions ul {
     ${props => props.theme.font_size.regular};
     li {
-      padding: 10px 0px;
+      padding: 5px 0px;
     }
   }
 
