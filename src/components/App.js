@@ -42,7 +42,7 @@ const App = () => {
       <div id="App">
         <Layout>
           <Navbar loggedIn={false}/>
-          <Brands />
+          <Header loggedIn={false}/>
           <Team />
           <Footer />
         </Layout>
@@ -54,7 +54,7 @@ const App = () => {
       <div id="App">
         <Layout>
           <Navbar loggedIn={true}/>
-          <Header />
+          <Header loggedIn={true}/>
           <About />
           <Brands />
           <Team />

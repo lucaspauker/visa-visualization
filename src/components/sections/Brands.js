@@ -33,7 +33,7 @@ const UsedBy = () => (
       <Section id="questions" accent>
         <StyledContainer>
           <div>
-            <h1>Here are some questions we can answer.</h1>
+            <h1>Here are some more questions we can answer.</h1>
             <ul>
               <li>Who are the top preparers for H2-B visas?
                 <ul>

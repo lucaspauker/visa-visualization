@@ -5,8 +5,9 @@ import Img from 'gatsby-image';
 
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
+import { useAuth0 } from "@auth0/auth0-react";
 
-const Header = () => (
+const Header = (props) => (
   <StaticQuery
     query={graphql`
       query {
@@ -31,15 +32,25 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                Check out our
-                <br />
-                H2-B visa report!
+                {props.loggedIn ?
+                  <span>
+                    Welcome, scroll down
+                    <br />
+                    to see the report!
+                  </span> :
+                  <span>
+                    Check out our
+                    <br />
+                    H2-B visa report!
+                  </span>}
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="./report.pdf">
-                  Download as PDF &nbsp;&#x2794;
-                </StyledExternalLink>
+                {props.loggedIn ?
+                  <StyledExternalLink href="./report.pdf">
+                    Download as PDF &nbsp;&#x2794;
+                  </StyledExternalLink> :
+                  <SignUp />}
               </p>
             </Text>
           </Grid>
@@ -48,6 +59,14 @@ const Header = () => (
     )}
   />
 );
+
+const SignUp = () => {
+  const { loginWithRedirect } = useAuth0();
+
+  return <button onClick={() => loginWithRedirect({ mode: 'signUp' })}>
+    Sign up to view the free report &nbsp;&#x2794;
+  </button>;
+};
 
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color.primary};
