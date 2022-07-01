@@ -37,7 +37,7 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
+                <StyledExternalLink href="./report.pdf">
                   Download as PDF &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
